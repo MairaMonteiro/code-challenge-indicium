@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: target-postgres
+Version: 1.1.3
+Summary: Singer.io target for Postgres
+Home-page: https://statsbot.co
+Author: Statsbot
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: singer-python (==5.1.1)
+Requires-Dist: psycopg2 (==2.7.5)
+Requires-Dist: inflection (==0.3.1)
+
+UNKNOWN
+
+

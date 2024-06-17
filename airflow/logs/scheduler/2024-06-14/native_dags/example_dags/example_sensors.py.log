@@ -1,0 +1,424 @@
+[2024-06-14T16:30:55.482-0300] {processor.py:161} INFO - Started process (PID=86440) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:30:55.482-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:30:55.483-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:30:55.483-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:30:55.489-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:30:55.591-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:30:55.590-0300] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_sensors
+[2024-06-14T16:30:55.604-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:30:55.603-0300] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_sensors
+[2024-06-14T16:30:55.618-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:30:55.617-0300] {override.py:1829} INFO - Created Permission View: can read on DAG:example_sensors
+[2024-06-14T16:30:55.618-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:30:55.618-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:30:55.626-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:30:55.626-0300] {dag.py:3118} INFO - Creating ORM DAG for example_sensors
+[2024-06-14T16:30:55.627-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:30:55.626-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:30:55.650-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.173 seconds
+[2024-06-14T16:31:52.722-0300] {processor.py:161} INFO - Started process (PID=86716) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:31:52.724-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:31:52.725-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:31:52.725-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:31:52.731-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:31:52.745-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:31:52.745-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:31:52.753-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:31:52.753-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:31:52.774-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.056 seconds
+[2024-06-14T16:32:44.806-0300] {processor.py:161} INFO - Started process (PID=86971) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:32:44.808-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:32:44.810-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:32:44.810-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:32:44.816-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:32:44.830-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:32:44.830-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:32:44.838-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:32:44.838-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:32:44.861-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.060 seconds
+[2024-06-14T16:33:35.523-0300] {processor.py:161} INFO - Started process (PID=87219) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:33:35.532-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:33:35.534-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:33:35.534-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:33:35.542-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:33:35.556-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:33:35.556-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:33:35.564-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:33:35.564-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:33:35.586-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.067 seconds
+[2024-06-14T16:34:35.935-0300] {processor.py:161} INFO - Started process (PID=87518) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:34:35.940-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:34:35.942-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:34:35.942-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:34:35.948-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:34:35.963-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:34:35.963-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:34:35.971-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:34:35.971-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:34:35.993-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.063 seconds
+[2024-06-14T16:35:31.365-0300] {processor.py:161} INFO - Started process (PID=87798) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:35:31.367-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:35:31.368-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:35:31.368-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:35:31.377-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:35:31.394-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:35:31.394-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:35:31.404-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:35:31.403-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:35:31.429-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.069 seconds
+[2024-06-14T16:36:31.966-0300] {processor.py:161} INFO - Started process (PID=88098) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:36:31.968-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:36:31.970-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:36:31.969-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:36:31.977-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:36:31.992-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:36:31.991-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:36:32.000-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:36:31.999-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:36:32.023-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.062 seconds
+[2024-06-14T16:37:28.541-0300] {processor.py:161} INFO - Started process (PID=88379) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:37:28.543-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:37:28.545-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:37:28.544-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:37:28.551-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:37:28.565-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:37:28.565-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:37:28.573-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:37:28.573-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:37:28.596-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.059 seconds
+[2024-06-14T16:38:17.090-0300] {processor.py:161} INFO - Started process (PID=88616) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:38:17.095-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:38:17.096-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:38:17.096-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:38:17.103-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:38:17.117-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:38:17.117-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:38:17.125-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:38:17.125-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:38:17.149-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.064 seconds
+[2024-06-14T16:39:01.629-0300] {processor.py:161} INFO - Started process (PID=88836) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:39:01.631-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:39:01.633-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:39:01.633-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:39:01.641-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:39:01.657-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:39:01.657-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:39:01.666-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:39:01.665-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:39:01.690-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.065 seconds
+[2024-06-14T16:40:03.466-0300] {processor.py:161} INFO - Started process (PID=89142) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:40:03.468-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:40:03.469-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:40:03.469-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:40:03.475-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:40:03.490-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:40:03.490-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:40:03.499-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:40:03.498-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:40:03.522-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.061 seconds
+[2024-06-14T16:40:57.738-0300] {processor.py:161} INFO - Started process (PID=89412) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:40:57.742-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:40:57.744-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:40:57.743-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:40:57.750-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:40:57.764-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:40:57.764-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:40:57.772-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:40:57.772-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:40:57.795-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.062 seconds
+[2024-06-14T16:41:57.826-0300] {processor.py:161} INFO - Started process (PID=89708) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:41:57.828-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:41:57.829-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:41:57.829-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:41:57.837-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:41:57.852-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:41:57.851-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:41:57.860-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:41:57.859-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:41:57.883-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.062 seconds
+[2024-06-14T16:42:54.974-0300] {processor.py:161} INFO - Started process (PID=89994) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:42:54.976-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:42:54.978-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:42:54.978-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:42:54.984-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:42:54.999-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:42:54.999-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:42:55.007-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:42:55.007-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:42:55.029-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.060 seconds
+[2024-06-14T16:43:55.508-0300] {processor.py:161} INFO - Started process (PID=90293) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:43:55.510-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:43:55.511-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:43:55.511-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:43:55.519-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:43:55.535-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:43:55.534-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:43:55.543-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:43:55.542-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:43:55.564-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.062 seconds
+[2024-06-14T16:44:55.135-0300] {processor.py:161} INFO - Started process (PID=90589) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:44:55.140-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:44:55.142-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:44:55.142-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:44:55.148-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:44:55.163-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:44:55.162-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:44:55.171-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:44:55.171-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:44:55.194-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.064 seconds
+[2024-06-14T16:45:55.202-0300] {processor.py:161} INFO - Started process (PID=90889) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:45:55.204-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:45:55.205-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:45:55.205-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:45:55.211-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:45:55.226-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:45:55.226-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:45:55.234-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:45:55.234-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:45:55.254-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.057 seconds
+[2024-06-14T16:46:56.304-0300] {processor.py:161} INFO - Started process (PID=91191) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:46:56.306-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:46:56.307-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:46:56.307-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:46:56.314-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:46:56.329-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:46:56.329-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:46:56.338-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:46:56.338-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:46:56.361-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.062 seconds
+[2024-06-14T16:47:53.393-0300] {processor.py:161} INFO - Started process (PID=91475) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:47:53.395-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:47:53.397-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:47:53.396-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:47:53.406-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:47:53.427-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:47:53.427-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:47:53.439-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:47:53.439-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:47:53.466-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.078 seconds
+[2024-06-14T16:48:51.305-0300] {processor.py:161} INFO - Started process (PID=91762) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:48:51.307-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:48:51.309-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:48:51.308-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:48:51.317-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:48:51.331-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:48:51.331-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:48:51.340-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:48:51.340-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:48:51.366-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.066 seconds
+[2024-06-14T16:49:50.198-0300] {processor.py:161} INFO - Started process (PID=92053) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:49:50.200-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:49:50.201-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:49:50.201-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:49:50.211-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:49:50.227-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:49:50.227-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:49:50.237-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:49:50.237-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:49:50.258-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.066 seconds
+[2024-06-14T16:50:54.296-0300] {processor.py:161} INFO - Started process (PID=92369) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:50:54.297-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:50:54.299-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:50:54.298-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:50:54.307-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:50:54.326-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:50:54.326-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:50:54.336-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:50:54.336-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:50:54.363-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.071 seconds
+[2024-06-14T16:51:39.678-0300] {processor.py:161} INFO - Started process (PID=92592) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:51:39.679-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:51:39.681-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:51:39.680-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:51:39.689-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:51:39.705-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:51:39.705-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:51:39.715-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:51:39.715-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:51:39.739-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.066 seconds
+[2024-06-14T16:52:40.986-0300] {processor.py:161} INFO - Started process (PID=92895) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:52:40.987-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:52:40.989-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:52:40.989-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:52:40.997-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:52:41.013-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:52:41.013-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:52:41.022-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:52:41.022-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:52:41.046-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.065 seconds
+[2024-06-14T16:53:42.159-0300] {processor.py:161} INFO - Started process (PID=93198) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:53:42.161-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:53:42.162-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:53:42.162-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:53:42.170-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:53:42.185-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:53:42.184-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:53:42.193-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:53:42.193-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:53:42.214-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.060 seconds
+[2024-06-14T16:54:45.155-0300] {processor.py:161} INFO - Started process (PID=93509) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:54:45.157-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T16:54:45.158-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:54:45.158-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:54:45.165-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T16:54:45.180-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:54:45.180-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T16:54:45.188-0300] {logging_mixin.py:188} INFO - [2024-06-14T16:54:45.188-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T16:54:45.214-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.063 seconds
+[2024-06-14T17:20:13.855-0300] {processor.py:161} INFO - Started process (PID=93751) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:20:13.857-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:20:13.859-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:20:13.858-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:20:13.869-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:20:13.886-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:20:13.886-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:20:13.897-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:20:13.897-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:20:13.923-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.074 seconds
+[2024-06-14T17:21:06.539-0300] {processor.py:161} INFO - Started process (PID=94012) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:21:06.541-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:21:06.542-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:21:06.542-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:21:06.550-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:21:06.567-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:21:06.566-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:21:06.577-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:21:06.576-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:21:06.596-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.062 seconds
+[2024-06-14T17:22:06.679-0300] {processor.py:161} INFO - Started process (PID=94309) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:22:06.681-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:22:06.682-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:22:06.682-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:22:06.690-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:22:06.706-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:22:06.706-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:22:06.714-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:22:06.714-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:22:06.736-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.061 seconds
+[2024-06-14T17:23:07.959-0300] {processor.py:161} INFO - Started process (PID=94612) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:23:07.960-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:23:07.962-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:23:07.962-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:23:07.968-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:23:07.982-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:23:07.982-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:23:07.990-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:23:07.990-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:23:08.015-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.061 seconds
+[2024-06-14T17:24:09.657-0300] {processor.py:161} INFO - Started process (PID=94917) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:24:09.659-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:24:09.660-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:24:09.660-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:24:09.667-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:24:09.681-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:24:09.681-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:24:09.689-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:24:09.689-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:24:09.711-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.058 seconds
+[2024-06-14T17:25:21.246-0300] {processor.py:161} INFO - Started process (PID=95267) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:25:21.251-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:25:21.253-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:25:21.252-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:25:21.259-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:25:21.273-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:25:21.273-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:25:21.282-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:25:21.282-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:25:21.305-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.063 seconds
+[2024-06-14T17:26:19.059-0300] {processor.py:161} INFO - Started process (PID=95555) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:26:19.062-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:26:19.064-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:26:19.063-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:26:19.070-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:26:19.084-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:26:19.084-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:26:19.093-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:26:19.092-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:26:19.115-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.060 seconds
+[2024-06-14T17:27:18.332-0300] {processor.py:161} INFO - Started process (PID=95847) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:27:18.335-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:27:18.336-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:27:18.336-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:27:18.344-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:27:18.359-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:27:18.359-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:27:18.367-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:27:18.367-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:27:18.390-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.063 seconds
+[2024-06-14T17:28:18.395-0300] {processor.py:161} INFO - Started process (PID=96144) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:28:18.397-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:28:18.399-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:28:18.398-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:28:18.408-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:28:18.426-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:28:18.426-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:28:18.436-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:28:18.435-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:28:18.459-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.070 seconds
+[2024-06-14T17:29:11.593-0300] {processor.py:161} INFO - Started process (PID=96412) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:29:11.594-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:29:11.596-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:29:11.596-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:29:11.603-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:29:11.618-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:29:11.618-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:29:11.625-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:29:11.625-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:29:11.649-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.061 seconds
+[2024-06-14T17:30:12.147-0300] {processor.py:161} INFO - Started process (PID=96712) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:30:12.149-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:30:12.151-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:30:12.151-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:30:12.157-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:30:12.172-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:30:12.172-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:30:12.180-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:30:12.179-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:30:12.203-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.061 seconds
+[2024-06-14T17:31:12.629-0300] {processor.py:161} INFO - Started process (PID=97011) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:31:12.631-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:31:12.633-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:31:12.633-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:31:12.645-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:31:12.669-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:31:12.668-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:31:12.679-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:31:12.679-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:31:12.708-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.086 seconds
+[2024-06-14T17:32:01.222-0300] {processor.py:161} INFO - Started process (PID=97248) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:32:01.224-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:32:01.225-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:32:01.225-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:32:01.233-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:32:01.252-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:32:01.252-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:32:01.261-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:32:01.260-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:32:01.284-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.070 seconds
+[2024-06-14T17:33:05.729-0300] {processor.py:161} INFO - Started process (PID=97567) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:33:05.732-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:33:05.734-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:33:05.733-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:33:05.741-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:33:05.756-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:33:05.756-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:33:05.764-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:33:05.764-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:33:05.790-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.065 seconds
+[2024-06-14T17:34:03.774-0300] {processor.py:161} INFO - Started process (PID=97855) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:34:03.775-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:34:03.777-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:34:03.777-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:34:03.785-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:34:03.799-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:34:03.799-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:34:03.807-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:34:03.807-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:34:03.832-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.063 seconds
+[2024-06-14T17:35:01.821-0300] {processor.py:161} INFO - Started process (PID=98145) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:35:01.822-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:35:01.824-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:35:01.823-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:35:01.831-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:35:01.849-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:35:01.848-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:35:01.857-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:35:01.857-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:35:01.881-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.065 seconds
+[2024-06-14T17:36:02.660-0300] {processor.py:161} INFO - Started process (PID=98447) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:36:02.663-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:36:02.664-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:36:02.664-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:36:02.672-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:36:02.686-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:36:02.686-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:36:02.694-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:36:02.694-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:36:02.716-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.061 seconds
+[2024-06-14T17:37:06.061-0300] {processor.py:161} INFO - Started process (PID=98759) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:37:06.063-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:37:06.064-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:37:06.064-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:37:06.070-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:37:06.085-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:37:06.085-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:37:06.093-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:37:06.093-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:37:06.120-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.064 seconds
+[2024-06-14T17:38:02.695-0300] {processor.py:161} INFO - Started process (PID=99043) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:38:02.697-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:38:02.699-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:38:02.698-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:38:02.707-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:38:02.722-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:38:02.722-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:38:02.730-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:38:02.730-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:38:02.754-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.064 seconds
+[2024-06-14T17:39:00.767-0300] {processor.py:161} INFO - Started process (PID=99331) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:39:00.769-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:39:00.771-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:39:00.771-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:39:00.779-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:39:00.794-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:39:00.793-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:39:00.801-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:39:00.801-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:39:00.826-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.064 seconds
+[2024-06-14T17:40:00.173-0300] {processor.py:161} INFO - Started process (PID=99625) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:40:00.174-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:40:00.177-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:40:00.176-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:40:00.184-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:40:00.199-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:40:00.199-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:40:00.207-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:40:00.207-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:40:00.231-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.063 seconds
+[2024-06-14T17:41:00.913-0300] {processor.py:161} INFO - Started process (PID=99925) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:41:00.915-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:41:00.916-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:41:00.916-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:41:00.924-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:41:00.942-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:41:00.941-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:41:00.950-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:41:00.950-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:41:00.973-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.065 seconds
+[2024-06-14T17:41:44.619-0300] {processor.py:161} INFO - Started process (PID=100141) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:41:44.621-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:41:44.623-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:41:44.622-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:41:44.630-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:41:44.647-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:41:44.647-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:41:44.655-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:41:44.655-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:41:44.680-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.066 seconds
+[2024-06-14T17:42:43.365-0300] {processor.py:161} INFO - Started process (PID=100432) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:42:43.366-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:42:43.368-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:42:43.367-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:42:43.374-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:42:43.389-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:42:43.389-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:42:43.397-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:42:43.397-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:42:43.423-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.063 seconds
+[2024-06-14T17:43:41.526-0300] {processor.py:161} INFO - Started process (PID=100722) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:43:41.528-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:43:41.530-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:43:41.529-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:43:41.538-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:43:41.552-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:43:41.552-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:43:41.560-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:43:41.560-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:43:41.584-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.063 seconds
+[2024-06-14T17:44:38.192-0300] {processor.py:161} INFO - Started process (PID=101003) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:44:38.193-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:44:38.195-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:44:38.195-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:44:38.204-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:44:38.221-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:44:38.221-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:44:38.230-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:44:38.230-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:44:38.253-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.066 seconds
+[2024-06-14T17:45:37.668-0300] {processor.py:161} INFO - Started process (PID=101302) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:45:37.670-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:45:37.672-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:45:37.671-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:45:37.678-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:45:37.693-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:45:37.692-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:45:37.700-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:45:37.700-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:45:37.725-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.062 seconds
+[2024-06-14T17:46:40.597-0300] {processor.py:161} INFO - Started process (PID=101612) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:46:40.610-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:46:40.611-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:46:40.611-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:46:40.620-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:46:40.636-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:46:40.636-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:46:40.645-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:46:40.644-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:46:40.669-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.078 seconds
+[2024-06-14T17:47:36.728-0300] {processor.py:161} INFO - Started process (PID=101892) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:47:36.730-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:47:36.731-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:47:36.731-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:47:36.739-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:47:36.753-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:47:36.753-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:47:36.761-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:47:36.761-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:47:36.785-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.062 seconds
+[2024-06-14T17:48:40.016-0300] {processor.py:161} INFO - Started process (PID=102204) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:48:40.018-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:48:40.019-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:48:40.019-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:48:40.027-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:48:40.043-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:48:40.043-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:48:40.051-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:48:40.051-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:48:40.073-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.062 seconds
+[2024-06-14T17:49:44.112-0300] {processor.py:161} INFO - Started process (PID=102520) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:49:44.116-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:49:44.118-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:49:44.118-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:49:44.130-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:49:44.145-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:49:44.145-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:49:44.154-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:49:44.154-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:49:44.179-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.074 seconds
+[2024-06-14T17:50:45.831-0300] {processor.py:161} INFO - Started process (PID=102826) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:50:45.832-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T17:50:45.834-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:50:45.834-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:50:45.842-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T17:50:45.857-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:50:45.857-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T17:50:45.865-0300] {logging_mixin.py:188} INFO - [2024-06-14T17:50:45.865-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T17:50:45.890-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.064 seconds
+[2024-06-14T20:52:06.120-0300] {processor.py:161} INFO - Started process (PID=103590) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T20:52:06.121-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T20:52:06.123-0300] {logging_mixin.py:188} INFO - [2024-06-14T20:52:06.123-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T20:52:06.135-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T20:52:06.160-0300] {logging_mixin.py:188} INFO - [2024-06-14T20:52:06.159-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T20:52:06.168-0300] {logging_mixin.py:188} INFO - [2024-06-14T20:52:06.168-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T20:52:06.195-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.081 seconds
+[2024-06-14T20:53:05.134-0300] {processor.py:161} INFO - Started process (PID=103873) to work on /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T20:53:05.136-0300] {processor.py:830} INFO - Processing file /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-06-14T20:53:05.137-0300] {logging_mixin.py:188} INFO - [2024-06-14T20:53:05.136-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T20:53:05.143-0300] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-06-14T20:53:05.159-0300] {logging_mixin.py:188} INFO - [2024-06-14T20:53:05.159-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-14T20:53:05.167-0300] {logging_mixin.py:188} INFO - [2024-06-14T20:53:05.167-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-06-14T20:53:05.194-0300] {processor.py:183} INFO - Processing /home/maira/projeto_indicium_engineering/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.067 seconds

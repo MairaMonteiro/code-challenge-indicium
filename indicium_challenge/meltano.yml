@@ -1,0 +1,36 @@
+0version: 1
+plugins:
+  extractors:
+  - name: tap-csv
+    namespace: tap-csv
+    variant: meltano
+    executable: tap-csv
+    config:
+      files: []
+  - name: tap-postgres
+    variant: meltanolabs
+    pip_url: git+https://github.com/MeltanoLabs/tap-postgres.git
+  - name: tap-github
+    variant: meltanolabs
+    pip_url: git+https://github.com/MeltanoLabs/tap-github.git
+    config:
+      repositories:
+        - MairaMonteiro/code-challenge-indicium/main/data
+      batch_config:
+        storage:
+          prefix: indicium_challenge
+  loaders:
+  - name: target-postgres
+    variant: meltano
+    config:
+      host: localhost
+      port: 5432
+      user: maira
+      password: maira
+      dbname: northwind
+      postgres_user: maira
+  - name: target-csv
+    variant: hotgluexyz
+    pip_url: git+https://github.com/hotgluexyz/target-csv.git
+project_id: 0abdb55b-7881-4de9-adc5-3881264d8335
+version: 1

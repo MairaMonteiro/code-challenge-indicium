@@ -1,0 +1,77 @@
+[2024-06-16T21:32:51.734-0300] {processor.py:161} INFO - Started process (PID=85529) to work on /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:32:51.735-0300] {processor.py:830} INFO - Processing file /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-06-16T21:32:51.736-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:32:51.735-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:32:51.743-0300] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:32:51.759-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:32:51.759-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:32:51.779-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:32:51.779-0300] {dag.py:3954} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-06-16 20:00:00+00:00, run_after=2024-06-17 00:00:00+00:00
+[2024-06-16T21:32:51.806-0300] {processor.py:183} INFO - Processing /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.080 seconds
+[2024-06-16T21:33:45.686-0300] {processor.py:161} INFO - Started process (PID=85599) to work on /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:33:45.688-0300] {processor.py:830} INFO - Processing file /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-06-16T21:33:45.688-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:33:45.688-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:33:45.693-0300] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:33:45.705-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:33:45.705-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:33:45.719-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:33:45.719-0300] {dag.py:3954} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-06-16 20:00:00+00:00, run_after=2024-06-17 00:00:00+00:00
+[2024-06-16T21:33:45.742-0300] {processor.py:183} INFO - Processing /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.062 seconds
+[2024-06-16T21:34:45.676-0300] {processor.py:161} INFO - Started process (PID=85668) to work on /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:34:45.678-0300] {processor.py:830} INFO - Processing file /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-06-16T21:34:45.679-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:34:45.679-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:34:45.683-0300] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:34:45.696-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:34:45.695-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:34:45.709-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:34:45.709-0300] {dag.py:3954} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-06-16 20:00:00+00:00, run_after=2024-06-17 00:00:00+00:00
+[2024-06-16T21:34:45.733-0300] {processor.py:183} INFO - Processing /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.064 seconds
+[2024-06-16T21:35:57.151-0300] {processor.py:161} INFO - Started process (PID=85761) to work on /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:35:57.255-0300] {processor.py:830} INFO - Processing file /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-06-16T21:35:57.256-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:35:57.255-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:35:57.261-0300] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:35:57.278-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:35:57.278-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:35:57.299-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:35:57.299-0300] {dag.py:3954} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-06-16 20:00:00+00:00, run_after=2024-06-17 00:00:00+00:00
+[2024-06-16T21:35:57.342-0300] {processor.py:183} INFO - Processing /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.198 seconds
+[2024-06-16T21:37:17.262-0300] {processor.py:161} INFO - Started process (PID=85871) to work on /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:37:17.264-0300] {processor.py:830} INFO - Processing file /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-06-16T21:37:17.265-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:37:17.264-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:37:17.270-0300] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:37:17.285-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:37:17.285-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:37:17.302-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:37:17.302-0300] {dag.py:3954} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-06-16 20:00:00+00:00, run_after=2024-06-17 00:00:00+00:00
+[2024-06-16T21:37:17.373-0300] {processor.py:183} INFO - Processing /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.120 seconds
+[2024-06-16T21:38:25.419-0300] {processor.py:161} INFO - Started process (PID=86637) to work on /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:38:25.421-0300] {processor.py:830} INFO - Processing file /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-06-16T21:38:25.422-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:38:25.421-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:38:25.426-0300] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:38:25.442-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:38:25.441-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:38:25.460-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:38:25.460-0300] {dag.py:3954} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-06-16 20:00:00+00:00, run_after=2024-06-17 00:00:00+00:00
+[2024-06-16T21:38:25.491-0300] {processor.py:183} INFO - Processing /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.079 seconds
+[2024-06-16T21:39:58.528-0300] {processor.py:161} INFO - Started process (PID=93918) to work on /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:39:58.530-0300] {processor.py:830} INFO - Processing file /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-06-16T21:39:58.532-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:39:58.531-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:39:58.537-0300] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:39:58.553-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:39:58.552-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:39:58.570-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:39:58.569-0300] {dag.py:3954} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-06-16 20:00:00+00:00, run_after=2024-06-17 00:00:00+00:00
+[2024-06-16T21:39:58.596-0300] {processor.py:183} INFO - Processing /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.075 seconds
+[2024-06-16T21:41:20.056-0300] {processor.py:161} INFO - Started process (PID=1282) to work on /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:41:20.058-0300] {processor.py:830} INFO - Processing file /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-06-16T21:41:20.059-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:41:20.058-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:41:20.064-0300] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:41:20.082-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:41:20.081-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:41:20.105-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:41:20.105-0300] {dag.py:3954} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-06-16 20:00:00+00:00, run_after=2024-06-17 00:00:00+00:00
+[2024-06-16T21:41:20.138-0300] {processor.py:183} INFO - Processing /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.093 seconds
+[2024-06-16T21:42:17.531-0300] {processor.py:161} INFO - Started process (PID=5852) to work on /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:42:17.533-0300] {processor.py:830} INFO - Processing file /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-06-16T21:42:17.534-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:42:17.533-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:42:17.539-0300] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:42:17.557-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:42:17.556-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:42:17.580-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:42:17.579-0300] {dag.py:3954} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-06-16 20:00:00+00:00, run_after=2024-06-17 00:00:00+00:00
+[2024-06-16T21:42:17.617-0300] {processor.py:183} INFO - Processing /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.095 seconds
+[2024-06-16T21:43:55.941-0300] {processor.py:161} INFO - Started process (PID=12976) to work on /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:43:55.943-0300] {processor.py:830} INFO - Processing file /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-06-16T21:43:55.945-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:43:55.944-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:43:55.952-0300] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:43:55.976-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:43:55.976-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:43:56.004-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:43:56.003-0300] {dag.py:3954} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-06-16 20:00:00+00:00, run_after=2024-06-17 00:00:00+00:00
+[2024-06-16T21:43:56.041-0300] {processor.py:183} INFO - Processing /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.112 seconds
+[2024-06-16T21:45:00.837-0300] {processor.py:161} INFO - Started process (PID=17581) to work on /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:45:00.841-0300] {processor.py:830} INFO - Processing file /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-06-16T21:45:00.844-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:45:00.843-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:45:00.863-0300] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-06-16T21:45:00.904-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:45:00.903-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:45:00.949-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:45:00.948-0300] {dag.py:3954} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-06-16 20:00:00+00:00, run_after=2024-06-17 00:00:00+00:00
+[2024-06-16T21:45:01.006-0300] {processor.py:183} INFO - Processing /home/maira/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.196 seconds

@@ -1,0 +1,423 @@
+2024-06-16 02:03:52,339 INFO - Task context logging is enabled
+2024-06-16 02:03:52,342 INFO - Loaded executor: SequentialExecutor
+2024-06-16 02:03:52,423 INFO - Starting the scheduler
+2024-06-16 02:03:52,423 INFO - Processing each file at most -1 times
+2024-06-16 02:03:52,433 INFO - Launched DagFileProcessorManager with pid: 26071
+2024-06-16 02:03:52,434 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 02:03:52,438 INFO - Configured default timezone UTC
+2024-06-16 02:03:52,462 INFO - Marked 1 SchedulerJob instances as failed
+2024-06-16 02:08:52,670 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 02:13:52,854 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 02:18:53,015 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 02:23:53,192 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 02:28:53,303 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 02:33:53,409 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 02:38:53,608 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 02:43:53,898 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 02:44:29,378 INFO - Setting next_dagrun for import_github_data_to_postgres to 2024-06-16 00:00:00+00:00, run_after=2024-06-17 00:00:00+00:00
+2024-06-16 02:44:29,556 INFO - 2 tasks up for execution:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github scheduled__2024-06-15T00:00:00+00:00 [scheduled]>
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T05:44:27.972947+00:00 [scheduled]>
+2024-06-16 02:44:29,557 INFO - DAG import_github_data_to_postgres has 0/16 running and queued tasks
+2024-06-16 02:44:29,558 INFO - DAG import_github_data_to_postgres has 1/16 running and queued tasks
+2024-06-16 02:44:29,558 INFO - Setting the following tasks to queued state:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github scheduled__2024-06-15T00:00:00+00:00 [scheduled]>
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T05:44:27.972947+00:00 [scheduled]>
+2024-06-16 02:44:29,581 INFO - Sending TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='scheduled__2024-06-15T00:00:00+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2024-06-16 02:44:29,581 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'scheduled__2024-06-15T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 02:44:29,583 INFO - Sending TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T05:44:27.972947+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2024-06-16 02:44:29,584 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T05:44:27.972947+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 02:44:29,593 INFO - Executing command: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'scheduled__2024-06-15T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 02:44:34,560 INFO - Executing command: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T05:44:27.972947+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 02:44:37,474 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='scheduled__2024-06-15T00:00:00+00:00', try_number=1, map_index=-1)
+2024-06-16 02:44:37,475 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T05:44:27.972947+00:00', try_number=1, map_index=-1)
+2024-06-16 02:44:37,487 INFO - TaskInstance Finished: dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T05:44:27.972947+00:00, map_index=-1, run_start_date=2024-06-16 05:44:36.325226+00:00, run_end_date=2024-06-16 05:44:36.944843+00:00, run_duration=0.619617, state=up_for_retry, executor_state=success, try_number=1, max_tries=1, job_id=9, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-06-16 05:44:29.562192+00:00, queued_by_job_id=7, pid=29443
+2024-06-16 02:44:37,488 INFO - TaskInstance Finished: dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=scheduled__2024-06-15T00:00:00+00:00, map_index=-1, run_start_date=2024-06-16 05:44:32.183172+00:00, run_end_date=2024-06-16 05:44:34.018847+00:00, run_duration=1.835675, state=up_for_retry, executor_state=success, try_number=1, max_tries=1, job_id=8, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-06-16 05:44:29.562192+00:00, queued_by_job_id=7, pid=29425
+2024-06-16 02:48:54,069 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 02:49:34,221 INFO - 1 tasks up for execution:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github scheduled__2024-06-15T00:00:00+00:00 [scheduled]>
+2024-06-16 02:49:34,221 INFO - DAG import_github_data_to_postgres has 0/16 running and queued tasks
+2024-06-16 02:49:34,222 INFO - Setting the following tasks to queued state:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github scheduled__2024-06-15T00:00:00+00:00 [scheduled]>
+2024-06-16 02:49:34,229 INFO - Sending TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='scheduled__2024-06-15T00:00:00+00:00', try_number=2, map_index=-1) to executor with priority 2 and queue default
+2024-06-16 02:49:34,230 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'scheduled__2024-06-15T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 02:49:34,237 INFO - Executing command: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'scheduled__2024-06-15T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 02:49:38,480 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='scheduled__2024-06-15T00:00:00+00:00', try_number=2, map_index=-1)
+2024-06-16 02:49:38,494 INFO - TaskInstance Finished: dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=scheduled__2024-06-15T00:00:00+00:00, map_index=-1, run_start_date=2024-06-16 05:49:36.435455+00:00, run_end_date=2024-06-16 05:49:37.956640+00:00, run_duration=1.521185, state=failed, executor_state=success, try_number=2, max_tries=1, job_id=10, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-06-16 05:49:34.222832+00:00, queued_by_job_id=7, pid=30073
+2024-06-16 02:49:38,656 ERROR - Marking run <DagRun import_github_data_to_postgres @ 2024-06-15 00:00:00+00:00: scheduled__2024-06-15T00:00:00+00:00, state:running, queued_at: 2024-06-16 05:44:29.228516+00:00. externally triggered: False> failed
+2024-06-16 02:49:38,665 INFO - DagRun Finished: dag_id=import_github_data_to_postgres, execution_date=2024-06-15 00:00:00+00:00, run_id=scheduled__2024-06-15T00:00:00+00:00, run_start_date=2024-06-16 05:44:29.407679+00:00, run_end_date=2024-06-16 05:49:38.664006+00:00, run_duration=309.256327, state=failed, external_trigger=False, run_type=scheduled, data_interval_start=2024-06-15 00:00:00+00:00, data_interval_end=2024-06-16 00:00:00+00:00, dag_hash=76f9a160572ff11e4a1a5c742f01b071
+2024-06-16 02:49:38,677 INFO - Setting next_dagrun for import_github_data_to_postgres to 2024-06-16 00:00:00+00:00, run_after=2024-06-17 00:00:00+00:00
+2024-06-16 02:49:38,702 INFO - 1 tasks up for execution:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T05:44:27.972947+00:00 [scheduled]>
+2024-06-16 02:49:38,702 INFO - DAG import_github_data_to_postgres has 0/16 running and queued tasks
+2024-06-16 02:49:38,702 INFO - Setting the following tasks to queued state:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T05:44:27.972947+00:00 [scheduled]>
+2024-06-16 02:49:38,704 INFO - Sending TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T05:44:27.972947+00:00', try_number=2, map_index=-1) to executor with priority 2 and queue default
+2024-06-16 02:49:38,704 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T05:44:27.972947+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 02:49:38,713 INFO - Executing command: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T05:44:27.972947+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 02:49:40,734 ERROR - Failed to execute task Command '['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T05:44:27.972947+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']' returned non-zero exit status 1..
+2024-06-16 02:49:40,735 INFO - Received executor event with state failed for task instance TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T05:44:27.972947+00:00', try_number=2, map_index=-1)
+2024-06-16 02:49:40,739 INFO - TaskInstance Finished: dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T05:44:27.972947+00:00, map_index=-1, run_start_date=2024-06-16 05:44:36.325226+00:00, run_end_date=2024-06-16 05:44:36.944843+00:00, run_duration=0.619617, state=queued, executor_state=failed, try_number=2, max_tries=1, job_id=9, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-06-16 05:49:38.703343+00:00, queued_by_job_id=7, pid=29443
+2024-06-16 02:49:40,740 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T05:44:27.972947+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 02:49:40,784 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T05:44:27.972947+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 02:49:40,813 INFO - Marking task as FAILED. dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T05:44:27.972947+00:00, execution_date=20240616T054427, start_date=20240616T054436, end_date=20240616T054940
+2024-06-16 02:49:42,144 ERROR - Marking run <DagRun import_github_data_to_postgres @ 2024-06-16 05:44:27.972947+00:00: manual__2024-06-16T05:44:27.972947+00:00, state:running, queued_at: 2024-06-16 05:44:28.158002+00:00. externally triggered: True> failed
+2024-06-16 02:49:42,144 INFO - DagRun Finished: dag_id=import_github_data_to_postgres, execution_date=2024-06-16 05:44:27.972947+00:00, run_id=manual__2024-06-16T05:44:27.972947+00:00, run_start_date=2024-06-16 05:44:29.417288+00:00, run_end_date=2024-06-16 05:49:42.144568+00:00, run_duration=312.72728, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-06-15 00:00:00+00:00, data_interval_end=2024-06-16 00:00:00+00:00, dag_hash=76f9a160572ff11e4a1a5c742f01b071
+2024-06-16 02:53:54,225 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 02:58:54,389 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 03:03:54,573 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 03:08:54,754 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 03:13:55,011 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 03:18:55,197 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 03:20:16,058 INFO - 1 tasks up for execution:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:20:14.078498+00:00 [scheduled]>
+2024-06-16 03:20:16,059 INFO - DAG import_github_data_to_postgres has 0/16 running and queued tasks
+2024-06-16 03:20:16,060 INFO - Setting the following tasks to queued state:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:20:14.078498+00:00 [scheduled]>
+2024-06-16 03:20:16,067 INFO - Sending TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T06:20:14.078498+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2024-06-16 03:20:16,068 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:20:14.078498+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 03:20:16,076 INFO - Executing command: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:20:14.078498+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 03:20:20,035 ERROR - Failed to execute task Command '['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:20:14.078498+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']' returned non-zero exit status 1..
+2024-06-16 03:20:20,037 INFO - Received executor event with state failed for task instance TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T06:20:14.078498+00:00', try_number=1, map_index=-1)
+2024-06-16 03:20:20,042 INFO - TaskInstance Finished: dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T06:20:14.078498+00:00, map_index=-1, run_start_date=None, run_end_date=None, run_duration=None, state=queued, executor_state=failed, try_number=1, max_tries=1, job_id=None, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-06-16 06:20:16.061360+00:00, queued_by_job_id=7, pid=None
+2024-06-16 03:20:20,043 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:20:14.078498+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 03:20:20,074 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:20:14.078498+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 03:20:20,086 INFO - Marking task as UP_FOR_RETRY. dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T06:20:14.078498+00:00, execution_date=20240616T062014, start_date=, end_date=20240616T062020
+2024-06-16 03:23:55,395 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 03:25:20,980 INFO - 1 tasks up for execution:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:20:14.078498+00:00 [scheduled]>
+2024-06-16 03:25:20,981 INFO - DAG import_github_data_to_postgres has 0/16 running and queued tasks
+2024-06-16 03:25:20,981 INFO - Setting the following tasks to queued state:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:20:14.078498+00:00 [scheduled]>
+2024-06-16 03:25:20,991 INFO - Sending TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T06:20:14.078498+00:00', try_number=2, map_index=-1) to executor with priority 2 and queue default
+2024-06-16 03:25:20,992 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:20:14.078498+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 03:25:21,001 INFO - Executing command: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:20:14.078498+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 03:25:23,703 ERROR - Failed to execute task Command '['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:20:14.078498+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']' returned non-zero exit status 1..
+2024-06-16 03:25:23,704 INFO - Received executor event with state failed for task instance TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T06:20:14.078498+00:00', try_number=2, map_index=-1)
+2024-06-16 03:25:23,709 INFO - TaskInstance Finished: dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T06:20:14.078498+00:00, map_index=-1, run_start_date=None, run_end_date=2024-06-16 06:20:20.079397+00:00, run_duration=None, state=queued, executor_state=failed, try_number=2, max_tries=1, job_id=None, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-06-16 06:25:20.982518+00:00, queued_by_job_id=7, pid=None
+2024-06-16 03:25:23,709 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:20:14.078498+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 03:25:23,746 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:20:14.078498+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 03:25:23,765 INFO - Marking task as FAILED. dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T06:20:14.078498+00:00, execution_date=20240616T062014, start_date=, end_date=20240616T062523
+2024-06-16 03:25:25,111 ERROR - Marking run <DagRun import_github_data_to_postgres @ 2024-06-16 06:20:14.078498+00:00: manual__2024-06-16T06:20:14.078498+00:00, state:running, queued_at: 2024-06-16 06:20:14.375130+00:00. externally triggered: True> failed
+2024-06-16 03:25:25,112 INFO - DagRun Finished: dag_id=import_github_data_to_postgres, execution_date=2024-06-16 06:20:14.078498+00:00, run_id=manual__2024-06-16T06:20:14.078498+00:00, run_start_date=2024-06-16 06:20:15.987615+00:00, run_end_date=2024-06-16 06:25:25.111402+00:00, run_duration=309.123787, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-06-15 00:00:00+00:00, data_interval_end=2024-06-16 00:00:00+00:00, dag_hash=76f9a160572ff11e4a1a5c742f01b071
+2024-06-16 03:27:32,948 INFO - 1 tasks up for execution:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:27:31.712331+00:00 [scheduled]>
+2024-06-16 03:27:32,956 INFO - DAG import_github_data_to_postgres has 0/16 running and queued tasks
+2024-06-16 03:27:32,957 INFO - Setting the following tasks to queued state:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:27:31.712331+00:00 [scheduled]>
+2024-06-16 03:27:32,963 INFO - Sending TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T06:27:31.712331+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2024-06-16 03:27:32,964 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:27:31.712331+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 03:27:32,971 INFO - Executing command: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:27:31.712331+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 03:27:35,080 ERROR - Failed to execute task Command '['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:27:31.712331+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']' returned non-zero exit status 1..
+2024-06-16 03:27:35,081 INFO - Received executor event with state failed for task instance TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T06:27:31.712331+00:00', try_number=1, map_index=-1)
+2024-06-16 03:27:35,085 INFO - TaskInstance Finished: dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T06:27:31.712331+00:00, map_index=-1, run_start_date=None, run_end_date=None, run_duration=None, state=queued, executor_state=failed, try_number=1, max_tries=1, job_id=None, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-06-16 06:27:32.957811+00:00, queued_by_job_id=7, pid=None
+2024-06-16 03:27:35,086 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:27:31.712331+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 03:27:35,120 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:27:31.712331+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 03:27:35,134 INFO - Marking task as UP_FOR_RETRY. dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T06:27:31.712331+00:00, execution_date=20240616T062731, start_date=, end_date=20240616T062735
+2024-06-16 03:28:55,591 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 03:32:36,118 INFO - 1 tasks up for execution:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:27:31.712331+00:00 [scheduled]>
+2024-06-16 03:32:36,118 INFO - DAG import_github_data_to_postgres has 0/16 running and queued tasks
+2024-06-16 03:32:36,118 INFO - Setting the following tasks to queued state:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:27:31.712331+00:00 [scheduled]>
+2024-06-16 03:32:36,121 INFO - Sending TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T06:27:31.712331+00:00', try_number=2, map_index=-1) to executor with priority 2 and queue default
+2024-06-16 03:32:36,122 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:27:31.712331+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 03:32:36,131 INFO - Executing command: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:27:31.712331+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 03:32:37,718 ERROR - Failed to execute task Command '['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:27:31.712331+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']' returned non-zero exit status 1..
+2024-06-16 03:32:37,719 INFO - Received executor event with state failed for task instance TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T06:27:31.712331+00:00', try_number=2, map_index=-1)
+2024-06-16 03:32:37,722 INFO - TaskInstance Finished: dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T06:27:31.712331+00:00, map_index=-1, run_start_date=None, run_end_date=2024-06-16 06:27:35.125449+00:00, run_duration=None, state=queued, executor_state=failed, try_number=2, max_tries=1, job_id=None, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-06-16 06:32:36.118891+00:00, queued_by_job_id=7, pid=None
+2024-06-16 03:32:37,723 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:27:31.712331+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 03:32:37,730 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:27:31.712331+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 03:32:37,736 INFO - Marking task as FAILED. dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T06:27:31.712331+00:00, execution_date=20240616T062731, start_date=, end_date=20240616T063237
+2024-06-16 03:32:39,064 ERROR - Marking run <DagRun import_github_data_to_postgres @ 2024-06-16 06:27:31.712331+00:00: manual__2024-06-16T06:27:31.712331+00:00, state:running, queued_at: 2024-06-16 06:27:31.877463+00:00. externally triggered: True> failed
+2024-06-16 03:32:39,066 INFO - DagRun Finished: dag_id=import_github_data_to_postgres, execution_date=2024-06-16 06:27:31.712331+00:00, run_id=manual__2024-06-16T06:27:31.712331+00:00, run_start_date=2024-06-16 06:27:32.871992+00:00, run_end_date=2024-06-16 06:32:39.065405+00:00, run_duration=306.193413, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-06-15 00:00:00+00:00, data_interval_end=2024-06-16 00:00:00+00:00, dag_hash=76f9a160572ff11e4a1a5c742f01b071
+2024-06-16 03:33:55,747 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 03:38:55,897 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 03:41:29,538 INFO - 1 tasks up for execution:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:41:28.222703+00:00 [scheduled]>
+2024-06-16 03:41:29,546 INFO - DAG import_github_data_to_postgres has 0/16 running and queued tasks
+2024-06-16 03:41:29,547 INFO - Setting the following tasks to queued state:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:41:28.222703+00:00 [scheduled]>
+2024-06-16 03:41:29,558 INFO - Sending TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T06:41:28.222703+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2024-06-16 03:41:29,559 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:41:28.222703+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 03:41:29,569 INFO - Executing command: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:41:28.222703+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 03:41:32,662 ERROR - Failed to execute task Command '['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:41:28.222703+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']' returned non-zero exit status 1..
+2024-06-16 03:41:32,663 INFO - Received executor event with state failed for task instance TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T06:41:28.222703+00:00', try_number=1, map_index=-1)
+2024-06-16 03:41:32,667 INFO - TaskInstance Finished: dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T06:41:28.222703+00:00, map_index=-1, run_start_date=None, run_end_date=None, run_duration=None, state=queued, executor_state=failed, try_number=1, max_tries=1, job_id=None, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-06-16 06:41:29.548802+00:00, queued_by_job_id=7, pid=None
+2024-06-16 03:41:32,668 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:41:28.222703+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 03:41:32,714 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:41:28.222703+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 03:41:32,733 INFO - Marking task as UP_FOR_RETRY. dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T06:41:28.222703+00:00, execution_date=20240616T064128, start_date=, end_date=20240616T064132
+2024-06-16 03:43:55,971 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 03:46:33,634 INFO - 1 tasks up for execution:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:41:28.222703+00:00 [scheduled]>
+2024-06-16 03:46:33,634 INFO - DAG import_github_data_to_postgres has 0/16 running and queued tasks
+2024-06-16 03:46:33,634 INFO - Setting the following tasks to queued state:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:41:28.222703+00:00 [scheduled]>
+2024-06-16 03:46:33,640 INFO - Sending TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T06:41:28.222703+00:00', try_number=2, map_index=-1) to executor with priority 2 and queue default
+2024-06-16 03:46:33,641 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:41:28.222703+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 03:46:33,649 INFO - Executing command: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:41:28.222703+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 03:46:35,646 ERROR - Failed to execute task Command '['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:41:28.222703+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']' returned non-zero exit status 1..
+2024-06-16 03:46:35,647 INFO - Received executor event with state failed for task instance TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T06:41:28.222703+00:00', try_number=2, map_index=-1)
+2024-06-16 03:46:35,652 INFO - TaskInstance Finished: dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T06:41:28.222703+00:00, map_index=-1, run_start_date=None, run_end_date=2024-06-16 06:41:32.720901+00:00, run_duration=None, state=queued, executor_state=failed, try_number=2, max_tries=1, job_id=None, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-06-16 06:46:33.635501+00:00, queued_by_job_id=7, pid=None
+2024-06-16 03:46:35,653 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:41:28.222703+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 03:46:35,668 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:41:28.222703+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 03:46:35,678 INFO - Marking task as FAILED. dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T06:41:28.222703+00:00, execution_date=20240616T064128, start_date=, end_date=20240616T064635
+2024-06-16 03:46:36,355 ERROR - Marking run <DagRun import_github_data_to_postgres @ 2024-06-16 06:41:28.222703+00:00: manual__2024-06-16T06:41:28.222703+00:00, state:running, queued_at: 2024-06-16 06:41:28.387037+00:00. externally triggered: True> failed
+2024-06-16 03:46:36,356 INFO - DagRun Finished: dag_id=import_github_data_to_postgres, execution_date=2024-06-16 06:41:28.222703+00:00, run_id=manual__2024-06-16T06:41:28.222703+00:00, run_start_date=2024-06-16 06:41:29.461257+00:00, run_end_date=2024-06-16 06:46:36.356065+00:00, run_duration=306.894808, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-06-15 00:00:00+00:00, data_interval_end=2024-06-16 00:00:00+00:00, dag_hash=76f9a160572ff11e4a1a5c742f01b071
+2024-06-16 03:48:56,057 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 03:51:39,358 INFO - 1 tasks up for execution:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:51:37.135803+00:00 [scheduled]>
+2024-06-16 03:51:39,368 INFO - DAG import_github_data_to_postgres has 0/16 running and queued tasks
+2024-06-16 03:51:39,368 INFO - Setting the following tasks to queued state:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:51:37.135803+00:00 [scheduled]>
+2024-06-16 03:51:39,388 INFO - Sending TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T06:51:37.135803+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2024-06-16 03:51:39,389 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:51:37.135803+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 03:51:39,398 INFO - Executing command: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:51:37.135803+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 03:51:44,786 ERROR - Failed to execute task Command '['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:51:37.135803+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']' returned non-zero exit status 1..
+2024-06-16 03:51:44,788 INFO - Received executor event with state failed for task instance TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T06:51:37.135803+00:00', try_number=1, map_index=-1)
+2024-06-16 03:51:44,797 INFO - TaskInstance Finished: dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T06:51:37.135803+00:00, map_index=-1, run_start_date=None, run_end_date=None, run_duration=None, state=queued, executor_state=failed, try_number=1, max_tries=1, job_id=None, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-06-16 06:51:39.369630+00:00, queued_by_job_id=7, pid=None
+2024-06-16 03:51:44,798 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:51:37.135803+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 03:51:44,873 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:51:37.135803+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 03:51:44,911 INFO - Marking task as UP_FOR_RETRY. dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T06:51:37.135803+00:00, execution_date=20240616T065137, start_date=, end_date=20240616T065144
+2024-06-16 03:53:56,241 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 03:56:45,439 INFO - 1 tasks up for execution:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:51:37.135803+00:00 [scheduled]>
+2024-06-16 03:56:45,439 INFO - DAG import_github_data_to_postgres has 0/16 running and queued tasks
+2024-06-16 03:56:45,439 INFO - Setting the following tasks to queued state:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:51:37.135803+00:00 [scheduled]>
+2024-06-16 03:56:45,443 INFO - Sending TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T06:51:37.135803+00:00', try_number=2, map_index=-1) to executor with priority 2 and queue default
+2024-06-16 03:56:45,443 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:51:37.135803+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 03:56:45,452 INFO - Executing command: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:51:37.135803+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 03:56:46,897 ERROR - Failed to execute task Command '['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T06:51:37.135803+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']' returned non-zero exit status 1..
+2024-06-16 03:56:46,899 INFO - Received executor event with state failed for task instance TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T06:51:37.135803+00:00', try_number=2, map_index=-1)
+2024-06-16 03:56:46,902 INFO - TaskInstance Finished: dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T06:51:37.135803+00:00, map_index=-1, run_start_date=None, run_end_date=2024-06-16 06:51:44.884566+00:00, run_duration=None, state=queued, executor_state=failed, try_number=2, max_tries=1, job_id=None, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-06-16 06:56:45.440169+00:00, queued_by_job_id=7, pid=None
+2024-06-16 03:56:46,903 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:51:37.135803+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 03:56:46,922 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:51:37.135803+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 03:56:46,934 INFO - Marking task as FAILED. dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T06:51:37.135803+00:00, execution_date=20240616T065137, start_date=, end_date=20240616T065646
+2024-06-16 03:56:48,271 ERROR - Marking run <DagRun import_github_data_to_postgres @ 2024-06-16 06:51:37.135803+00:00: manual__2024-06-16T06:51:37.135803+00:00, state:running, queued_at: 2024-06-16 06:51:37.279222+00:00. externally triggered: True> failed
+2024-06-16 03:56:48,272 INFO - DagRun Finished: dag_id=import_github_data_to_postgres, execution_date=2024-06-16 06:51:37.135803+00:00, run_id=manual__2024-06-16T06:51:37.135803+00:00, run_start_date=2024-06-16 06:51:39.083357+00:00, run_end_date=2024-06-16 06:56:48.272154+00:00, run_duration=309.188797, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-06-15 00:00:00+00:00, data_interval_end=2024-06-16 00:00:00+00:00, dag_hash=76f9a160572ff11e4a1a5c742f01b071
+2024-06-16 03:58:56,397 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 04:00:54,443 INFO - 1 tasks up for execution:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T07:00:53.316903+00:00 [scheduled]>
+2024-06-16 04:00:54,444 INFO - DAG import_github_data_to_postgres has 0/16 running and queued tasks
+2024-06-16 04:00:54,444 INFO - Setting the following tasks to queued state:
+	<TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T07:00:53.316903+00:00 [scheduled]>
+2024-06-16 04:00:54,447 INFO - Sending TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T07:00:53.316903+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2024-06-16 04:00:54,447 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T07:00:53.316903+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 04:00:54,456 INFO - Executing command: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T07:00:53.316903+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 04:00:56,862 ERROR - Failed to execute task Command '['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'manual__2024-06-16T07:00:53.316903+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']' returned non-zero exit status 1..
+2024-06-16 04:00:56,863 INFO - Received executor event with state failed for task instance TaskInstanceKey(dag_id='import_github_data_to_postgres', task_id='download_file_from_github', run_id='manual__2024-06-16T07:00:53.316903+00:00', try_number=1, map_index=-1)
+2024-06-16 04:00:56,868 INFO - TaskInstance Finished: dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T07:00:53.316903+00:00, map_index=-1, run_start_date=None, run_end_date=None, run_duration=None, state=queued, executor_state=failed, try_number=1, max_tries=1, job_id=None, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-06-16 07:00:54.445109+00:00, queued_by_job_id=7, pid=None
+2024-06-16 04:00:56,869 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T07:00:53.316903+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 04:00:56,902 ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T07:00:53.316903+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 04:00:56,917 INFO - Marking task as UP_FOR_RETRY. dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=manual__2024-06-16T07:00:53.316903+00:00, execution_date=20240616T070053, start_date=, end_date=20240616T070056
+2024-06-16 04:03:56,557 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 04:08:56,690 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 04:11:23,466 INFO - Setting next_dagrun for indicium_challenge to 2024-06-16 00:00:00+00:00, run_after=2024-06-17 00:00:00+00:00
+2024-06-16 04:11:23,754 INFO - 2 tasks up for execution:
+	<TaskInstance: indicium_challenge.extracts.csv scheduled__2024-06-15T00:00:00+00:00 [scheduled]>
+	<TaskInstance: indicium_challenge.extracts.csv manual__2024-06-16T07:11:21.759222+00:00 [scheduled]>
+2024-06-16 04:11:23,755 INFO - DAG indicium_challenge has 0/16 running and queued tasks
+2024-06-16 04:11:23,755 INFO - DAG indicium_challenge has 1/16 running and queued tasks
+2024-06-16 04:11:23,755 INFO - Setting the following tasks to queued state:
+	<TaskInstance: indicium_challenge.extracts.csv scheduled__2024-06-15T00:00:00+00:00 [scheduled]>
+	<TaskInstance: indicium_challenge.extracts.csv manual__2024-06-16T07:11:21.759222+00:00 [scheduled]>
+2024-06-16 04:11:23,770 INFO - Sending TaskInstanceKey(dag_id='indicium_challenge', task_id='extracts.csv', run_id='scheduled__2024-06-15T00:00:00+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2024-06-16 04:11:23,772 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'indicium_challenge', 'extracts.csv', 'scheduled__2024-06-15T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 04:11:23,774 INFO - Sending TaskInstanceKey(dag_id='indicium_challenge', task_id='extracts.csv', run_id='manual__2024-06-16T07:11:21.759222+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2024-06-16 04:11:23,774 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'indicium_challenge', 'extracts.csv', 'manual__2024-06-16T07:11:21.759222+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 04:11:23,905 INFO - Executing command: ['airflow', 'tasks', 'run', 'indicium_challenge', 'extracts.csv', 'scheduled__2024-06-15T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 04:11:33,381 INFO - Executing command: ['airflow', 'tasks', 'run', 'indicium_challenge', 'extracts.csv', 'manual__2024-06-16T07:11:21.759222+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 04:11:36,351 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='indicium_challenge', task_id='extracts.csv', run_id='scheduled__2024-06-15T00:00:00+00:00', try_number=1, map_index=-1)
+2024-06-16 04:11:36,351 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='indicium_challenge', task_id='extracts.csv', run_id='manual__2024-06-16T07:11:21.759222+00:00', try_number=1, map_index=-1)
+2024-06-16 04:11:36,360 INFO - TaskInstance Finished: dag_id=indicium_challenge, task_id=extracts.csv, run_id=manual__2024-06-16T07:11:21.759222+00:00, map_index=-1, run_start_date=2024-06-16 07:11:35.371867+00:00, run_end_date=2024-06-16 07:11:35.686947+00:00, run_duration=0.31508, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=12, pool=default_pool, queue=default, priority_weight=3, operator=DockerOperator, queued_dttm=2024-06-16 07:11:23.757459+00:00, queued_by_job_id=7, pid=38289
+2024-06-16 04:11:36,361 INFO - TaskInstance Finished: dag_id=indicium_challenge, task_id=extracts.csv, run_id=scheduled__2024-06-15T00:00:00+00:00, map_index=-1, run_start_date=2024-06-16 07:11:32.171787+00:00, run_end_date=2024-06-16 07:11:32.736207+00:00, run_duration=0.56442, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=11, pool=default_pool, queue=default, priority_weight=3, operator=DockerOperator, queued_dttm=2024-06-16 07:11:23.757459+00:00, queued_by_job_id=7, pid=38272
+2024-06-16 04:11:37,802 ERROR - Marking run <DagRun indicium_challenge @ 2024-06-15 00:00:00+00:00: scheduled__2024-06-15T00:00:00+00:00, state:running, queued_at: 2024-06-16 07:11:23.352258+00:00. externally triggered: False> failed
+2024-06-16 04:11:37,803 INFO - DagRun Finished: dag_id=indicium_challenge, execution_date=2024-06-15 00:00:00+00:00, run_id=scheduled__2024-06-15T00:00:00+00:00, run_start_date=2024-06-16 07:11:23.637210+00:00, run_end_date=2024-06-16 07:11:37.803668+00:00, run_duration=14.166458, state=failed, external_trigger=False, run_type=scheduled, data_interval_start=2024-06-15 00:00:00+00:00, data_interval_end=2024-06-16 00:00:00+00:00, dag_hash=d01c8a25d62edc7e403ec12418bf6978
+2024-06-16 04:11:37,810 INFO - Setting next_dagrun for indicium_challenge to 2024-06-16 00:00:00+00:00, run_after=2024-06-17 00:00:00+00:00
+2024-06-16 04:11:37,813 ERROR - Marking run <DagRun indicium_challenge @ 2024-06-16 07:11:21.759222+00:00: manual__2024-06-16T07:11:21.759222+00:00, state:running, queued_at: 2024-06-16 07:11:21.913112+00:00. externally triggered: True> failed
+2024-06-16 04:11:37,814 INFO - DagRun Finished: dag_id=indicium_challenge, execution_date=2024-06-16 07:11:21.759222+00:00, run_id=manual__2024-06-16T07:11:21.759222+00:00, run_start_date=2024-06-16 07:11:23.646353+00:00, run_end_date=2024-06-16 07:11:37.814224+00:00, run_duration=14.167871, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-06-15 00:00:00+00:00, data_interval_end=2024-06-16 00:00:00+00:00, dag_hash=d01c8a25d62edc7e403ec12418bf6978
+2024-06-16 04:13:56,868 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 04:16:50,183 INFO - 1 tasks up for execution:
+	<TaskInstance: indicium_challenge.extracts.csv manual__2024-06-16T07:16:48.576976+00:00 [scheduled]>
+2024-06-16 04:16:50,192 INFO - DAG indicium_challenge has 0/16 running and queued tasks
+2024-06-16 04:16:50,193 INFO - Setting the following tasks to queued state:
+	<TaskInstance: indicium_challenge.extracts.csv manual__2024-06-16T07:16:48.576976+00:00 [scheduled]>
+2024-06-16 04:16:50,218 INFO - Sending TaskInstanceKey(dag_id='indicium_challenge', task_id='extracts.csv', run_id='manual__2024-06-16T07:16:48.576976+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2024-06-16 04:16:50,220 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'indicium_challenge', 'extracts.csv', 'manual__2024-06-16T07:16:48.576976+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 04:16:50,236 INFO - Executing command: ['airflow', 'tasks', 'run', 'indicium_challenge', 'extracts.csv', 'manual__2024-06-16T07:16:48.576976+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 04:16:58,853 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='indicium_challenge', task_id='extracts.csv', run_id='manual__2024-06-16T07:16:48.576976+00:00', try_number=1, map_index=-1)
+2024-06-16 04:16:58,861 INFO - TaskInstance Finished: dag_id=indicium_challenge, task_id=extracts.csv, run_id=manual__2024-06-16T07:16:48.576976+00:00, map_index=-1, run_start_date=2024-06-16 07:16:58.083810+00:00, run_end_date=2024-06-16 07:16:58.300049+00:00, run_duration=0.216239, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=13, pool=default_pool, queue=default, priority_weight=3, operator=DockerOperator, queued_dttm=2024-06-16 07:16:50.194207+00:00, queued_by_job_id=7, pid=38756
+2024-06-16 04:17:00,195 ERROR - Marking run <DagRun indicium_challenge @ 2024-06-16 07:16:48.576976+00:00: manual__2024-06-16T07:16:48.576976+00:00, state:running, queued_at: 2024-06-16 07:16:48.896660+00:00. externally triggered: True> failed
+2024-06-16 04:17:00,195 INFO - DagRun Finished: dag_id=indicium_challenge, execution_date=2024-06-16 07:16:48.576976+00:00, run_id=manual__2024-06-16T07:16:48.576976+00:00, run_start_date=2024-06-16 07:16:50.059383+00:00, run_end_date=2024-06-16 07:17:00.195590+00:00, run_duration=10.136207, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-06-15 00:00:00+00:00, data_interval_end=2024-06-16 00:00:00+00:00, dag_hash=1e7b2027891a344c7b45d8f022ca3e8d
+2024-06-16 04:18:56,986 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 04:20:39,719 INFO - 1 tasks up for execution:
+	<TaskInstance: indicium_challenge.extracts.csv manual__2024-06-16T07:20:38.230419+00:00 [scheduled]>
+2024-06-16 04:20:39,719 INFO - DAG indicium_challenge has 0/16 running and queued tasks
+2024-06-16 04:20:39,719 INFO - Setting the following tasks to queued state:
+	<TaskInstance: indicium_challenge.extracts.csv manual__2024-06-16T07:20:38.230419+00:00 [scheduled]>
+2024-06-16 04:20:39,726 INFO - Sending TaskInstanceKey(dag_id='indicium_challenge', task_id='extracts.csv', run_id='manual__2024-06-16T07:20:38.230419+00:00', try_number=1, map_index=-1) to executor with priority 4 and queue default
+2024-06-16 04:20:39,727 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'indicium_challenge', 'extracts.csv', 'manual__2024-06-16T07:20:38.230419+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 04:20:39,736 INFO - Executing command: ['airflow', 'tasks', 'run', 'indicium_challenge', 'extracts.csv', 'manual__2024-06-16T07:20:38.230419+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 04:20:44,886 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='indicium_challenge', task_id='extracts.csv', run_id='manual__2024-06-16T07:20:38.230419+00:00', try_number=1, map_index=-1)
+2024-06-16 04:20:44,891 INFO - TaskInstance Finished: dag_id=indicium_challenge, task_id=extracts.csv, run_id=manual__2024-06-16T07:20:38.230419+00:00, map_index=-1, run_start_date=2024-06-16 07:20:43.784581+00:00, run_end_date=2024-06-16 07:20:44.221059+00:00, run_duration=0.436478, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=14, pool=default_pool, queue=default, priority_weight=4, operator=DockerOperator, queued_dttm=2024-06-16 07:20:39.720398+00:00, queued_by_job_id=7, pid=39096
+2024-06-16 04:20:47,285 ERROR - Marking run <DagRun indicium_challenge @ 2024-06-16 07:20:38.230419+00:00: manual__2024-06-16T07:20:38.230419+00:00, state:running, queued_at: 2024-06-16 07:20:38.477497+00:00. externally triggered: True> failed
+2024-06-16 04:20:47,286 INFO - DagRun Finished: dag_id=indicium_challenge, execution_date=2024-06-16 07:20:38.230419+00:00, run_id=manual__2024-06-16T07:20:38.230419+00:00, run_start_date=2024-06-16 07:20:39.639208+00:00, run_end_date=2024-06-16 07:20:47.286450+00:00, run_duration=7.647242, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-06-15 00:00:00+00:00, data_interval_end=2024-06-16 00:00:00+00:00, dag_hash=a754d83c50dc81b0f7ce9a0c525721d8
+2024-06-16 04:23:57,250 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 04:27:26,629 INFO - 2 tasks up for execution:
+	<TaskInstance: indicium_challenge.extracts.csv manual__2024-06-16T07:27:24.929763+00:00 [scheduled]>
+	<TaskInstance: indicium_challenge.load_to_postgres manual__2024-06-16T07:27:24.929763+00:00 [scheduled]>
+2024-06-16 04:27:26,641 INFO - DAG indicium_challenge has 0/16 running and queued tasks
+2024-06-16 04:27:26,642 INFO - DAG indicium_challenge has 1/16 running and queued tasks
+2024-06-16 04:27:26,642 INFO - Setting the following tasks to queued state:
+	<TaskInstance: indicium_challenge.extracts.csv manual__2024-06-16T07:27:24.929763+00:00 [scheduled]>
+	<TaskInstance: indicium_challenge.load_to_postgres manual__2024-06-16T07:27:24.929763+00:00 [scheduled]>
+2024-06-16 04:27:26,655 INFO - Sending TaskInstanceKey(dag_id='indicium_challenge', task_id='extracts.csv', run_id='manual__2024-06-16T07:27:24.929763+00:00', try_number=1, map_index=-1) to executor with priority 4 and queue default
+2024-06-16 04:27:26,655 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'indicium_challenge', 'extracts.csv', 'manual__2024-06-16T07:27:24.929763+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 04:27:26,656 INFO - Sending TaskInstanceKey(dag_id='indicium_challenge', task_id='load_to_postgres', run_id='manual__2024-06-16T07:27:24.929763+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-06-16 04:27:26,656 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'indicium_challenge', 'load_to_postgres', 'manual__2024-06-16T07:27:24.929763+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 04:27:26,665 INFO - Executing command: ['airflow', 'tasks', 'run', 'indicium_challenge', 'extracts.csv', 'manual__2024-06-16T07:27:24.929763+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 04:27:34,114 INFO - Executing command: ['airflow', 'tasks', 'run', 'indicium_challenge', 'load_to_postgres', 'manual__2024-06-16T07:27:24.929763+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 04:27:36,725 ERROR - Failed to execute task Command '['airflow', 'tasks', 'run', 'indicium_challenge', 'load_to_postgres', 'manual__2024-06-16T07:27:24.929763+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']' returned non-zero exit status 1..
+2024-06-16 04:27:36,729 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='indicium_challenge', task_id='extracts.csv', run_id='manual__2024-06-16T07:27:24.929763+00:00', try_number=1, map_index=-1)
+2024-06-16 04:27:36,730 INFO - Received executor event with state failed for task instance TaskInstanceKey(dag_id='indicium_challenge', task_id='load_to_postgres', run_id='manual__2024-06-16T07:27:24.929763+00:00', try_number=1, map_index=-1)
+2024-06-16 04:27:36,734 INFO - TaskInstance Finished: dag_id=indicium_challenge, task_id=extracts.csv, run_id=manual__2024-06-16T07:27:24.929763+00:00, map_index=-1, run_start_date=2024-06-16 07:27:32.973234+00:00, run_end_date=2024-06-16 07:27:33.517296+00:00, run_duration=0.544062, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=15, pool=default_pool, queue=default, priority_weight=4, operator=DockerOperator, queued_dttm=2024-06-16 07:27:26.644098+00:00, queued_by_job_id=7, pid=39748
+2024-06-16 04:27:36,735 INFO - TaskInstance Finished: dag_id=indicium_challenge, task_id=load_to_postgres, run_id=manual__2024-06-16T07:27:24.929763+00:00, map_index=-1, run_start_date=None, run_end_date=None, run_duration=None, state=removed, executor_state=failed, try_number=1, max_tries=0, job_id=None, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2024-06-16 07:27:26.644098+00:00, queued_by_job_id=7, pid=None
+2024-06-16 04:27:37,007 INFO - Marking run <DagRun indicium_challenge @ 2024-06-16 07:27:24.929763+00:00: manual__2024-06-16T07:27:24.929763+00:00, state:running, queued_at: 2024-06-16 07:27:25.193222+00:00. externally triggered: True> successful
+2024-06-16 04:27:37,008 INFO - DagRun Finished: dag_id=indicium_challenge, execution_date=2024-06-16 07:27:24.929763+00:00, run_id=manual__2024-06-16T07:27:24.929763+00:00, run_start_date=2024-06-16 07:27:26.490804+00:00, run_end_date=2024-06-16 07:27:37.007500+00:00, run_duration=10.516696, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-06-15 00:00:00+00:00, data_interval_end=2024-06-16 00:00:00+00:00, dag_hash=322e6d58357532c26a5904631cdbd008
+2024-06-16 04:28:57,389 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 10:25:01,866 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 10:30:14,999 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 10:35:18,381 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 10:38:34,617 INFO - 1 tasks up for execution:
+	<TaskInstance: indicium_challenge.extracts.csv manual__2024-06-16T13:38:33.229324+00:00 [scheduled]>
+2024-06-16 10:38:34,632 INFO - DAG indicium_challenge has 0/16 running and queued tasks
+2024-06-16 10:38:34,632 INFO - Setting the following tasks to queued state:
+	<TaskInstance: indicium_challenge.extracts.csv manual__2024-06-16T13:38:33.229324+00:00 [scheduled]>
+2024-06-16 10:38:34,645 INFO - Sending TaskInstanceKey(dag_id='indicium_challenge', task_id='extracts.csv', run_id='manual__2024-06-16T13:38:33.229324+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2024-06-16 10:38:34,646 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'indicium_challenge', 'extracts.csv', 'manual__2024-06-16T13:38:33.229324+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 10:38:34,656 INFO - Executing command: ['airflow', 'tasks', 'run', 'indicium_challenge', 'extracts.csv', 'manual__2024-06-16T13:38:33.229324+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 10:38:43,921 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='indicium_challenge', task_id='extracts.csv', run_id='manual__2024-06-16T13:38:33.229324+00:00', try_number=1, map_index=-1)
+2024-06-16 10:38:44,104 INFO - TaskInstance Finished: dag_id=indicium_challenge, task_id=extracts.csv, run_id=manual__2024-06-16T13:38:33.229324+00:00, map_index=-1, run_start_date=2024-06-16 13:38:42.411117+00:00, run_end_date=2024-06-16 13:38:43.144316+00:00, run_duration=0.733199, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=16, pool=default_pool, queue=default, priority_weight=3, operator=DockerOperator, queued_dttm=2024-06-16 13:38:34.633770+00:00, queued_by_job_id=7, pid=41224
+2024-06-16 10:38:45,768 ERROR - Marking run <DagRun indicium_challenge @ 2024-06-16 13:38:33.229324+00:00: manual__2024-06-16T13:38:33.229324+00:00, state:running, queued_at: 2024-06-16 13:38:33.726942+00:00. externally triggered: True> failed
+2024-06-16 10:38:45,771 INFO - DagRun Finished: dag_id=indicium_challenge, execution_date=2024-06-16 13:38:33.229324+00:00, run_id=manual__2024-06-16T13:38:33.229324+00:00, run_start_date=2024-06-16 13:38:34.508126+00:00, run_end_date=2024-06-16 13:38:45.769491+00:00, run_duration=11.261365, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-06-15 00:00:00+00:00, data_interval_end=2024-06-16 00:00:00+00:00, dag_hash=1e7b2027891a344c7b45d8f022ca3e8d
+2024-06-16 10:40:18,906 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 10:45:19,089 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 10:50:19,583 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 10:55:19,694 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 11:00:19,824 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 11:05:19,991 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 11:10:20,132 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 11:15:20,291 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 11:20:20,433 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 11:25:20,577 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 11:30:20,733 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 11:35:20,884 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 11:40:21,136 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 11:45:21,307 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 11:50:21,470 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 11:55:21,626 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 12:00:21,766 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 12:05:21,870 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 12:10:22,009 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 12:15:22,162 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 13:03:25,756 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 13:08:25,915 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 13:13:26,110 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 13:18:26,170 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 13:23:26,336 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 13:28:26,481 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 13:33:26,638 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 13:48:12,129 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 13:53:12,297 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 13:58:12,630 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 14:03:12,837 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 14:08:12,993 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 14:13:13,118 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 14:18:13,255 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 14:23:13,416 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 14:28:13,585 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 14:33:13,734 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 14:38:13,890 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 14:43:14,042 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 14:48:14,200 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 14:53:14,366 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 14:58:14,535 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 15:03:14,723 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 15:08:14,917 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 15:13:15,034 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 15:18:15,529 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 15:23:16,093 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 15:28:16,226 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 15:49:18,293 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 15:54:18,494 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 15:59:18,660 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 16:04:18,792 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 16:09:18,984 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 16:14:19,181 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 16:19:19,447 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 16:24:19,721 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 16:29:19,879 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 16:34:20,022 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 16:39:20,061 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 16:44:20,116 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 16:49:20,185 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 16:54:20,376 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 16:59:20,458 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 17:04:20,605 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 17:09:20,751 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 17:14:20,771 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 17:19:20,905 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 17:24:21,089 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 17:29:22,186 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 17:34:24,878 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 17:39:25,011 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 17:44:25,240 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 17:49:25,401 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 17:54:25,584 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 17:59:25,779 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 18:04:25,942 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 18:09:26,068 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 18:14:26,195 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 18:19:26,362 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 18:24:26,544 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 18:29:26,670 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 18:34:26,714 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 19:12:59,097 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 19:17:59,138 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 19:22:59,197 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 19:27:59,362 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 19:32:59,943 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 19:38:00,102 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 19:43:00,335 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 19:48:00,542 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 19:53:00,600 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 19:58:00,630 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 20:03:00,722 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 20:08:00,874 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 20:13:01,010 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 20:18:01,249 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 20:23:01,485 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 20:28:01,607 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 20:33:01,736 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 21:31:31,132 INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+2024-06-16 21:31:32,673 INFO - 1 tasks up for execution:
+	<TaskInstance: indicium_challenge.extracts.csv scheduled__2024-06-16T00:00:00+00:00 [scheduled]>
+2024-06-16 21:31:32,677 INFO - DAG indicium_challenge has 0/16 running and queued tasks
+2024-06-16 21:31:32,681 INFO - Setting the following tasks to queued state:
+	<TaskInstance: indicium_challenge.extracts.csv scheduled__2024-06-16T00:00:00+00:00 [scheduled]>
+2024-06-16 21:31:33,012 INFO - Sending TaskInstanceKey(dag_id='indicium_challenge', task_id='extracts.csv', run_id='scheduled__2024-06-16T00:00:00+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2024-06-16 21:31:33,019 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'indicium_challenge', 'extracts.csv', 'scheduled__2024-06-16T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 21:31:33,064 INFO - Executing command: ['airflow', 'tasks', 'run', 'indicium_challenge', 'extracts.csv', 'scheduled__2024-06-16T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']
+2024-06-16 21:31:48,921 ERROR - Failed to execute task Command '['airflow', 'tasks', 'run', 'indicium_challenge', 'extracts.csv', 'scheduled__2024-06-16T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_data.py']' returned non-zero exit status 1..
+2024-06-16 21:31:48,948 INFO - Received executor event with state failed for task instance TaskInstanceKey(dag_id='indicium_challenge', task_id='extracts.csv', run_id='scheduled__2024-06-16T00:00:00+00:00', try_number=1, map_index=-1)
+2024-06-16 21:31:49,065 INFO - TaskInstance Finished: dag_id=indicium_challenge, task_id=extracts.csv, run_id=scheduled__2024-06-16T00:00:00+00:00, map_index=-1, run_start_date=None, run_end_date=None, run_duration=None, state=queued, executor_state=failed, try_number=1, max_tries=0, job_id=None, pool=default_pool, queue=default, priority_weight=3, operator=DockerOperator, queued_dttm=2024-06-17 00:31:32.687950+00:00, queued_by_job_id=7, pid=None
+2024-06-16 21:31:49,069 ERROR - Executor reports task instance <TaskInstance: indicium_challenge.extracts.csv scheduled__2024-06-16T00:00:00+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 21:31:49,210 ERROR - Executor reports task instance <TaskInstance: indicium_challenge.extracts.csv scheduled__2024-06-16T00:00:00+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+2024-06-16 21:31:49,275 INFO - Marking task as FAILED. dag_id=indicium_challenge, task_id=extracts.csv, run_id=scheduled__2024-06-16T00:00:00+00:00, execution_date=20240616T000000, start_date=, end_date=20240617T003149
+2024-06-16 21:31:53,857 ERROR - Marking run <DagRun indicium_challenge @ 2024-06-16 00:00:00+00:00: scheduled__2024-06-16T00:00:00+00:00, state:running, queued_at: 2024-06-17 00:31:29.893610+00:00. externally triggered: False> failed
+2024-06-16 21:31:53,859 INFO - DagRun Finished: dag_id=indicium_challenge, execution_date=2024-06-16 00:00:00+00:00, run_id=scheduled__2024-06-16T00:00:00+00:00, run_start_date=2024-06-17 00:31:31.335975+00:00, run_end_date=2024-06-17 00:31:53.857687+00:00, run_duration=22.521712, state=failed, external_trigger=False, run_type=scheduled, data_interval_start=2024-06-16 00:00:00+00:00, data_interval_end=2024-06-17 00:00:00+00:00, dag_hash=1e7b2027891a344c7b45d8f022ca3e8d
+2024-06-16 21:31:53,868 INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+2024-06-16 21:34:08,665 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 21:39:09,040 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-16 21:44:09,340 INFO - Adopting or resetting orphaned tasks for active dag runs

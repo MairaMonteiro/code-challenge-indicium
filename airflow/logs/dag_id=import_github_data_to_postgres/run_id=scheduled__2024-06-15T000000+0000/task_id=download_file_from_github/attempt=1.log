@@ -1,0 +1,32 @@
+[2024-06-16T02:44:32.141-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-16T02:44:32.182-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: import_github_data_to_postgres.download_file_from_github scheduled__2024-06-15T00:00:00+00:00 [queued]>
+[2024-06-16T02:44:32.202-0300] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: import_github_data_to_postgres.download_file_from_github scheduled__2024-06-15T00:00:00+00:00 [queued]>
+[2024-06-16T02:44:32.203-0300] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-06-16T02:44:32.226-0300] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): download_file_from_github> on 2024-06-15 00:00:00+00:00
+[2024-06-16T02:44:32.249-0300] {standard_task_runner.py:63} INFO - Started process 29425 to run task
+[2024-06-16T02:44:32.261-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'import_github_data_to_postgres', 'download_file_from_github', 'scheduled__2024-06-15T00:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/extract_data.py', '--cfg-path', '/tmp/tmpnu186rav']
+[2024-06-16T02:44:32.263-0300] {standard_task_runner.py:91} INFO - Job 8: Subtask download_file_from_github
+[2024-06-16T02:44:32.334-0300] {task_command.py:426} INFO - Running <TaskInstance: import_github_data_to_postgres.download_file_from_github scheduled__2024-06-15T00:00:00+00:00 [running]> on host LAPTOP-6NHM3R4R.
+[2024-06-16T02:44:32.461-0300] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='import_github_data_to_postgres' AIRFLOW_CTX_TASK_ID='download_file_from_github' AIRFLOW_CTX_EXECUTION_DATE='2024-06-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-15T00:00:00+00:00'
+[2024-06-16T02:44:32.463-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-16T02:44:34.011-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-16T02:44:34.012-0300] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/maira/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/maira/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/maira/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/maira/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/maira/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/maira/airflow/dags/extract_data.py", line 51, in download_file_from_github
+    with open('/maira/data/order_details.csv', 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/maira/data/order_details.csv'
+[2024-06-16T02:44:34.019-0300] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=import_github_data_to_postgres, task_id=download_file_from_github, run_id=scheduled__2024-06-15T00:00:00+00:00, execution_date=20240615T000000, start_date=20240616T054432, end_date=20240616T054434
+[2024-06-16T02:44:34.032-0300] {standard_task_runner.py:110} ERROR - Failed to execute job 8 for task download_file_from_github ([Errno 2] No such file or directory: '/maira/data/order_details.csv'; 29425)
+[2024-06-16T02:44:34.046-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-16T02:44:34.060-0300] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-16T02:44:34.060-0300] {local_task_job_runner.py:222} INFO - ::endgroup::

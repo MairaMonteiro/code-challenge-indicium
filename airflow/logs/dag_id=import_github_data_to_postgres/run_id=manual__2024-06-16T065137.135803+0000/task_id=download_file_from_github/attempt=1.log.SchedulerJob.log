@@ -1,0 +1,1 @@
+[2024-06-16T03:51:44.868-0300] {scheduler_job_runner.py:843} ERROR - Executor reports task instance <TaskInstance: import_github_data_to_postgres.download_file_from_github manual__2024-06-16T06:51:37.135803+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

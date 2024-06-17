@@ -1,0 +1,126 @@
+[2024-06-16T21:31:54.458-0300] {processor.py:161} INFO - Started process (PID=85466) to work on /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:31:54.459-0300] {processor.py:830} INFO - Processing file /home/maira/airflow/dags/extract_data.py for tasks to queue
+[2024-06-16T21:31:54.460-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:31:54.459-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:31:54.472-0300] {processor.py:840} INFO - DAG(s) 'indicium_challenge' retrieved from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:31:54.484-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:31:54.484-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:31:54.502-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:31:54.502-0300] {dag.py:3954} INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-16T21:31:54.527-0300] {processor.py:183} INFO - Processing /home/maira/airflow/dags/extract_data.py took 0.077 seconds
+[2024-06-16T21:32:52.876-0300] {processor.py:161} INFO - Started process (PID=85531) to work on /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:32:52.878-0300] {processor.py:830} INFO - Processing file /home/maira/airflow/dags/extract_data.py for tasks to queue
+[2024-06-16T21:32:52.879-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:32:52.879-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:32:52.886-0300] {processor.py:840} INFO - DAG(s) 'indicium_challenge' retrieved from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:32:52.897-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:32:52.897-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:32:52.912-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:32:52.912-0300] {dag.py:3954} INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-16T21:32:52.934-0300] {processor.py:183} INFO - Processing /home/maira/airflow/dags/extract_data.py took 0.066 seconds
+[2024-06-16T21:33:24.094-0300] {processor.py:161} INFO - Started process (PID=85562) to work on /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:33:24.095-0300] {processor.py:830} INFO - Processing file /home/maira/airflow/dags/extract_data.py for tasks to queue
+[2024-06-16T21:33:24.095-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:33:24.095-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:33:24.102-0300] {processor.py:840} INFO - DAG(s) 'indicium_challenge' retrieved from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:33:24.113-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:33:24.113-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:33:24.128-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:33:24.128-0300] {dag.py:3954} INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-16T21:33:24.152-0300] {processor.py:183} INFO - Processing /home/maira/airflow/dags/extract_data.py took 0.065 seconds
+[2024-06-16T21:34:16.053-0300] {processor.py:161} INFO - Started process (PID=85624) to work on /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:34:16.055-0300] {processor.py:830} INFO - Processing file /home/maira/airflow/dags/extract_data.py for tasks to queue
+[2024-06-16T21:34:16.056-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:34:16.055-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:34:16.064-0300] {processor.py:840} INFO - DAG(s) 'indicium_challenge' retrieved from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:34:16.076-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:34:16.076-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:34:16.091-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:34:16.090-0300] {dag.py:3954} INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-16T21:34:16.122-0300] {processor.py:183} INFO - Processing /home/maira/airflow/dags/extract_data.py took 0.076 seconds
+[2024-06-16T21:34:46.813-0300] {processor.py:161} INFO - Started process (PID=85669) to work on /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:34:46.814-0300] {processor.py:830} INFO - Processing file /home/maira/airflow/dags/extract_data.py for tasks to queue
+[2024-06-16T21:34:46.814-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:34:46.814-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:34:46.821-0300] {processor.py:840} INFO - DAG(s) 'indicium_challenge' retrieved from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:34:46.832-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:34:46.832-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:34:46.847-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:34:46.847-0300] {dag.py:3954} INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-16T21:34:46.874-0300] {processor.py:183} INFO - Processing /home/maira/airflow/dags/extract_data.py took 0.068 seconds
+[2024-06-16T21:35:36.680-0300] {processor.py:161} INFO - Started process (PID=85739) to work on /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:35:36.681-0300] {processor.py:830} INFO - Processing file /home/maira/airflow/dags/extract_data.py for tasks to queue
+[2024-06-16T21:35:36.683-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:35:36.682-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:35:36.690-0300] {processor.py:840} INFO - DAG(s) 'indicium_challenge' retrieved from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:35:36.703-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:35:36.703-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:35:36.720-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:35:36.720-0300] {dag.py:3954} INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-16T21:35:36.751-0300] {processor.py:183} INFO - Processing /home/maira/airflow/dags/extract_data.py took 0.078 seconds
+[2024-06-16T21:36:20.212-0300] {processor.py:161} INFO - Started process (PID=85798) to work on /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:36:20.214-0300] {processor.py:830} INFO - Processing file /home/maira/airflow/dags/extract_data.py for tasks to queue
+[2024-06-16T21:36:20.215-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:36:20.215-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:36:20.231-0300] {processor.py:840} INFO - DAG(s) 'indicium_challenge' retrieved from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:36:20.245-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:36:20.245-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:36:20.261-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:36:20.261-0300] {dag.py:3954} INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-16T21:36:20.289-0300] {processor.py:183} INFO - Processing /home/maira/airflow/dags/extract_data.py took 0.086 seconds
+[2024-06-16T21:37:18.502-0300] {processor.py:161} INFO - Started process (PID=85872) to work on /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:37:18.504-0300] {processor.py:830} INFO - Processing file /home/maira/airflow/dags/extract_data.py for tasks to queue
+[2024-06-16T21:37:18.505-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:37:18.505-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:37:18.513-0300] {processor.py:840} INFO - DAG(s) 'indicium_challenge' retrieved from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:37:18.525-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:37:18.525-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:37:18.541-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:37:18.540-0300] {dag.py:3954} INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-16T21:37:18.563-0300] {processor.py:183} INFO - Processing /home/maira/airflow/dags/extract_data.py took 0.069 seconds
+[2024-06-16T21:37:59.213-0300] {processor.py:161} INFO - Started process (PID=85916) to work on /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:37:59.214-0300] {processor.py:830} INFO - Processing file /home/maira/airflow/dags/extract_data.py for tasks to queue
+[2024-06-16T21:37:59.215-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:37:59.215-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:37:59.222-0300] {processor.py:840} INFO - DAG(s) 'indicium_challenge' retrieved from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:37:59.236-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:37:59.236-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:37:59.252-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:37:59.252-0300] {dag.py:3954} INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-16T21:37:59.275-0300] {processor.py:183} INFO - Processing /home/maira/airflow/dags/extract_data.py took 0.069 seconds
+[2024-06-16T21:38:53.804-0300] {processor.py:161} INFO - Started process (PID=88815) to work on /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:38:53.805-0300] {processor.py:830} INFO - Processing file /home/maira/airflow/dags/extract_data.py for tasks to queue
+[2024-06-16T21:38:53.806-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:38:53.806-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:38:53.815-0300] {processor.py:840} INFO - DAG(s) 'indicium_challenge' retrieved from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:38:53.835-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:38:53.834-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:38:53.858-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:38:53.857-0300] {dag.py:3954} INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-16T21:38:53.892-0300] {processor.py:183} INFO - Processing /home/maira/airflow/dags/extract_data.py took 0.099 seconds
+[2024-06-16T21:39:28.546-0300] {processor.py:161} INFO - Started process (PID=91553) to work on /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:39:28.547-0300] {processor.py:830} INFO - Processing file /home/maira/airflow/dags/extract_data.py for tasks to queue
+[2024-06-16T21:39:28.548-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:39:28.548-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:39:28.556-0300] {processor.py:840} INFO - DAG(s) 'indicium_challenge' retrieved from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:39:28.568-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:39:28.568-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:39:28.585-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:39:28.585-0300] {dag.py:3954} INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-16T21:39:28.610-0300] {processor.py:183} INFO - Processing /home/maira/airflow/dags/extract_data.py took 0.072 seconds
+[2024-06-16T21:39:59.677-0300] {processor.py:161} INFO - Started process (PID=94003) to work on /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:39:59.679-0300] {processor.py:830} INFO - Processing file /home/maira/airflow/dags/extract_data.py for tasks to queue
+[2024-06-16T21:39:59.681-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:39:59.680-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:39:59.692-0300] {processor.py:840} INFO - DAG(s) 'indicium_challenge' retrieved from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:39:59.709-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:39:59.709-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:39:59.733-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:39:59.733-0300] {dag.py:3954} INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-16T21:39:59.777-0300] {processor.py:183} INFO - Processing /home/maira/airflow/dags/extract_data.py took 0.110 seconds
+[2024-06-16T21:40:52.051-0300] {processor.py:161} INFO - Started process (PID=98500) to work on /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:40:52.052-0300] {processor.py:830} INFO - Processing file /home/maira/airflow/dags/extract_data.py for tasks to queue
+[2024-06-16T21:40:52.054-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:40:52.053-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:40:52.067-0300] {processor.py:840} INFO - DAG(s) 'indicium_challenge' retrieved from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:40:52.093-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:40:52.093-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:40:52.134-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:40:52.133-0300] {dag.py:3954} INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-16T21:40:52.172-0300] {processor.py:183} INFO - Processing /home/maira/airflow/dags/extract_data.py took 0.131 seconds
+[2024-06-16T21:41:50.907-0300] {processor.py:161} INFO - Started process (PID=3774) to work on /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:41:50.909-0300] {processor.py:830} INFO - Processing file /home/maira/airflow/dags/extract_data.py for tasks to queue
+[2024-06-16T21:41:50.910-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:41:50.909-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:41:50.919-0300] {processor.py:840} INFO - DAG(s) 'indicium_challenge' retrieved from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:41:50.936-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:41:50.935-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:41:50.966-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:41:50.966-0300] {dag.py:3954} INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-16T21:41:50.994-0300] {processor.py:183} INFO - Processing /home/maira/airflow/dags/extract_data.py took 0.098 seconds
+[2024-06-16T21:42:45.584-0300] {processor.py:161} INFO - Started process (PID=8646) to work on /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:42:45.586-0300] {processor.py:830} INFO - Processing file /home/maira/airflow/dags/extract_data.py for tasks to queue
+[2024-06-16T21:42:45.587-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:42:45.587-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:42:45.595-0300] {processor.py:840} INFO - DAG(s) 'indicium_challenge' retrieved from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:42:45.611-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:42:45.611-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:42:45.638-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:42:45.637-0300] {dag.py:3954} INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-16T21:42:45.672-0300] {processor.py:183} INFO - Processing /home/maira/airflow/dags/extract_data.py took 0.096 seconds
+[2024-06-16T21:43:16.919-0300] {processor.py:161} INFO - Started process (PID=10685) to work on /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:43:16.920-0300] {processor.py:830} INFO - Processing file /home/maira/airflow/dags/extract_data.py for tasks to queue
+[2024-06-16T21:43:16.921-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:43:16.921-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:43:16.940-0300] {processor.py:840} INFO - DAG(s) 'indicium_challenge' retrieved from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:43:16.958-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:43:16.958-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:43:16.980-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:43:16.979-0300] {dag.py:3954} INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-16T21:43:17.103-0300] {processor.py:183} INFO - Processing /home/maira/airflow/dags/extract_data.py took 0.193 seconds
+[2024-06-16T21:43:57.250-0300] {processor.py:161} INFO - Started process (PID=13036) to work on /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:43:57.326-0300] {processor.py:830} INFO - Processing file /home/maira/airflow/dags/extract_data.py for tasks to queue
+[2024-06-16T21:43:57.327-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:43:57.327-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:43:57.334-0300] {processor.py:840} INFO - DAG(s) 'indicium_challenge' retrieved from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:43:57.346-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:43:57.345-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:43:57.360-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:43:57.360-0300] {dag.py:3954} INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-16T21:43:58.060-0300] {processor.py:183} INFO - Processing /home/maira/airflow/dags/extract_data.py took 0.891 seconds
+[2024-06-16T21:44:33.219-0300] {processor.py:161} INFO - Started process (PID=15336) to work on /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:44:33.220-0300] {processor.py:830} INFO - Processing file /home/maira/airflow/dags/extract_data.py for tasks to queue
+[2024-06-16T21:44:33.221-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:44:33.221-0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:44:33.231-0300] {processor.py:840} INFO - DAG(s) 'indicium_challenge' retrieved from /home/maira/airflow/dags/extract_data.py
+[2024-06-16T21:44:33.248-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:44:33.247-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-16T21:44:33.285-0300] {logging_mixin.py:188} INFO - [2024-06-16T21:44:33.284-0300] {dag.py:3954} INFO - Setting next_dagrun for indicium_challenge to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-16T21:44:33.333-0300] {processor.py:183} INFO - Processing /home/maira/airflow/dags/extract_data.py took 0.127 seconds

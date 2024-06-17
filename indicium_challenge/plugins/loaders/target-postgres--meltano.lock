@@ -1,0 +1,78 @@
+{
+  "plugin_type": "loaders",
+  "name": "target-postgres",
+  "namespace": "target_postgres",
+  "variant": "meltano",
+  "label": "PostgreSQL",
+  "docs": "https://hub.meltano.com/loaders/target-postgres--meltano",
+  "repo": "https://github.com/meltano/target-postgres",
+  "pip_url": "git+https://github.com/meltano/target-postgres.git",
+  "description": "PostgreSQL database loader",
+  "logo_url": "https://hub.meltano.com/assets/logos/loaders/postgres.png",
+  "settings_group_validation": [
+    [
+      "schema",
+      "url"
+    ],
+    [
+      "dbname",
+      "host",
+      "password",
+      "port",
+      "schema",
+      "user"
+    ]
+  ],
+  "settings": [
+    {
+      "name": "dbname",
+      "aliases": [
+        "database"
+      ],
+      "value": "warehouse",
+      "label": "Database Name"
+    },
+    {
+      "name": "host",
+      "aliases": [
+        "address"
+      ],
+      "value": "localhost",
+      "label": "Host"
+    },
+    {
+      "name": "password",
+      "kind": "string",
+      "value": "warehouse",
+      "label": "Password",
+      "sensitive": true
+    },
+    {
+      "name": "port",
+      "kind": "integer",
+      "value": 5502,
+      "label": "Port"
+    },
+    {
+      "name": "schema",
+      "value": "$MELTANO_EXTRACT__LOAD_SCHEMA",
+      "label": "Schema",
+      "description": "Note that `$MELTANO_EXTRACT__LOAD_SCHEMA` [will expand to](https://docs.meltano.com/guide/configuration.html#expansion-in-setting-values) the value of the [`load_schema` extra](https://docs.meltano.com/concepts/plugins#load-schema-extra) for the extractor used in the pipeline, which defaults to the extractor's namespace, e.g. `tap_gitlab` for [`tap-gitlab`](/extractors/gitlab).\n\nName of the schema where the tables will be created. If `schema_mapping`\nis not defined then every stream sent by the tap is loaded into this schema.\n"
+    },
+    {
+      "name": "url",
+      "label": "URL",
+      "description": "Lets you set `user`, `password`, `host`, `port`, and `dbname` in one\ngo using a `postgresql://` URI.\n\nTakes precedence over the other settings when set.\n"
+    },
+    {
+      "name": "user",
+      "aliases": [
+        "username"
+      ],
+      "value": "warehouse",
+      "label": "User"
+    }
+  ],
+  "dialect": "postgres",
+  "target_schema": "$TARGET_POSTGRES_SCHEMA"
+}
